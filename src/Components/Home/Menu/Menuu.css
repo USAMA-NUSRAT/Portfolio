@@ -1,0 +1,60 @@
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image:url("../../../assets/home/bg.jpg") ;
+    height: 10vh;
+    /* position: fixed;
+    top: 0; */
+    z-index: 500;
+    /* border: 1px solid white; */
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-right: 100px;
+
+}
+.portfolio-logo{
+    margin-left: 100px;
+    color: darkorange;
+    font-size: 36px;
+    font-weight: bold;
+    font-family:'Poppins'
+}
+/* .menubar{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+} */
+.main-nav .menubar li{
+    /* text-decoration: none; */
+    /* list-style: none; */
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    font-size: 20px;
+    color: #aaef3b !important;
+}
+.linked{
+    color:white;
+}
+.linked:hover{
+    color:darkorange;
+    text-decoration: none;
+    /* font-weight: bolder; */
+}
+
+.menubar li:hover{
+    font-weight:bold;
+    list-style: none;
+    border-bottom: 3px solid darkorange;
+    /* list-style-type: none; */
+    color:yellow;
+}
+/* .linked:visited{
+    color:darkgray;
+} */

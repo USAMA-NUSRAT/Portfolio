@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    height:640px;
+    position: relative;
+    animation-name: examplees;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+  
+    width: 80%;
+    margin: auto;
+}
+.main-resume .resume-heading{
+    color: rgb(32, 31, 31);
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.main-resume .detailsformal-heading{
+    color:gray;
+    letter-spacing: 5px;
+}
+.main-resume .tag-line{
+    margin: 10px 0;
+    height: 3px;
+    width:138px;
+    background-color: darkorange;
+}
+.main-resume .iconss{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 80%;
+    padding-top: 30px;
+    box-shadow: 0 0 10px rgb(181, 179, 179);
+}
+.main-resume .iconss .icontext{
+    display: flex;
+    flex-direction: column;
+    margin:15px 0 0 15px;
+}
+.main-resume .iconss .icons-div{
+    display: flex;
+    align-items: center;
+}
+.icons-div >:first-child{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    height:90px;
+    width: 40px;
+    border: none;
+    padding: 5px;  
+}
+.hh6{
+    padding: 10px 35px 10px 35px;
+    color: black;
+    font-weight: bold;
+    width:100%;
+}
+.acttive{
+    width:100%;
+    padding: 10px 35px 10px 35px;
+    border-radius: 0 20px 20px 0;
+    background-color: black;
+    font-weight: bold;
+    color:rgb(230, 221, 221);
+}
+.main-resume .iconss .line{
+    height:90%;
+    width :3px;
+    background-color: gray;
+    margin:0 5% 0 7% ;  
+}
+.highlight{
+    width: 20px;
+    height:20px;
+    background-color: darkorange;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.educate-parent {
+    width: 100%;
+    margin-top: 20px;
+}
+ .educate-parent .educate{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+h4,h6{
+font-weight: bold;
+color: darkorange;    
+}
+.educate-parent .educate .education{
+    display: flex;
+    justify-content:space-between;
+    /* align-items: flex-start; */
+    width: 100%;
+    margin-bottom: 25px;
+}
+.educate-parent .educate .educationn{
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px
+}
+.educate-parent .educate .educationnn{
+    margin: 0px;
+    display: flex;
+}
+/* .bbttnn{
+ position: absolute;
+ /* right:280px; */
+/* } */ */
+.educationn .skill-measure{
+    display: flex;
+}
+.mg{
+    margin-bottom: 5px;
+}
+.educationn .skill-measure .lower{
+    height:8px;
+    width:150px;
+    background-color: rgb(36,38,59);
+}
+.educationn .skill-measure .lower .uper{
+    height: 100%;
+    /* width:80%; */
+    background-color: rgb(255,88,35);
+    z-index: 500;
+}
+.uper-html{
+    width:95%;
+}
+.uper-css{
+    width:88%;
+}
+.uper-boot{
+    width:85%;
+}
+.uper-js{
+    width:80%;
+}
+.uper-jq{
+    width:78%;
+}
+.uper-react{
+    width:88%;
+}
+.uper-node{
+    width:60%;
+}
+.uper-sql{
+    width:90%;
+}
+.size{
+    height:13px;
+    width: 13px;
+    background-color: rgb(255,88,35);
+    border-radius: 50%;
+    margin:5px 10px 0 0;
+
+}
+.dividee{
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+.skill-sec{
+    /* border: 1px solid black; */
+    width:50%;
+}
+.deg-inst p{
+    text-align: justify;
+    font-size: 12px;
+}
+@keyframes examplees {
+    /* 0%   {right :100%;
+    opacity: 0;}
+    50%{right:50%;
+        opacity: 0.5;}
+    100% { right:0%;
+    opacity: 1;} */
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+  /* @media only screen and (max-width: 85px) {
+    .main-resume{
+        width:100%;
+        border: 1px solid green;
+        margin:50px;
+    }
+  } */
+  @media only screen and (max-width: 880px) {
+    body{
+        margin:0;
+        padding: 0;
+    }
+   .main-resume{
+    width:100vw;
+    border: 1px solid green;
+    margin:0;
+    margin-right: 0px;
+   }
+   .main-resume .iconss{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+    width: 100%;
+ }
+  }
+  @media only screen and (max-width: 690px) {
+     .duration .bbttnn{
+        width:100px;
+        padding:10px;
+        font-size: 10px;
+     }
+     .deg-inst h4{
+        font-size: 16px;
+     }
+     .education .highlight{
+        height:10px;
+        width:10px;
+     }
+  }
+  @media only screen and (max-width: 690px) {
+    .duration .bbttnn{
+        width:80px;
+        padding:2px;
+     }
+  }

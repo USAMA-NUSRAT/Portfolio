@@ -1,0 +1,138 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+    /* min-height: 570px; */
+    background-image: url("../../assets/home/bg.jpg");
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.profile-details-name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.profile-details-role{
+display: flex;
+flex-direction: column;
+margin: 14px 0 24px 0;
+}
+.profile-details-role h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.primary-text{
+    color: (--white);
+}
+.highlighted-text{
+    color:var(--dark-orange);
+}
+.curssor::after{
+content: '|';
+/* transition: 0.5; */
+/* color: aqua; */
+animation: blurr 0.5s  infinite;
+}
+.profile-role-tagline{
+    font-size: 19px;
+    margin : 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+.profile-options .highlighted-btn{
+    margin: 0 0 0 28px;
+}
+.profile-options .highlighted-btn:hover{
+margin: 0 0 0 28px;
+background-color: cornsilk;
+color: #111;
+}
+.profile-picture{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 0 1px 0px 0px var(--white);
+ border-radius: 50%;
+ height: 380px;
+ width:380px;
+ margin: 0 0 20px 250px;
+}
+.profile-picture-background{
+    height: 92%;
+    width:92%;
+    background-image: url(../../assets/home/me.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+.colz .colz-icon i {
+    color: white;
+    padding: 10px;
+    transform: scale(1.5);
+    /* border: 1px solid white; */
+    /* padding-left:0px ; */
+}
+.colz .colz-icon i:hover{
+    transform: scale(2);
+}
+@keyframes blurr{
+   
+    50%{
+        opacity: 0;
+    }
+   
+}
+@media only screen and (max-width: 1030px) {
+    .profile-picture-background{
+        height: 80%;
+        width:80%;
+    }
+    .profile-picture{
+        height:280px;
+        width:280px;
+        margin-right:150px;
+    }
+}
+@media only screen and (max-width: 932px) {
+    .profile-container{
+        height: 70vh ;
+    }
+    .profile-picture-background{
+        height: 60%;
+        width:80%;
+    }
+    .profile-picture{
+        height:240px;
+        width:300px;
+        margin-right:150px;
+    }
+    .profile-details-role h1{
+      font-size: 22px;
+    }
+    .profile-role-tagline{
+        font-size: 15px;
+        margin-left: 38px;}
+        .profile-options .buu{
+            width:40%;
+        }
+        .profile-options{
+            margin-left: 10px;
+        }
+}
+@media only screen and (max-width: 800px) {
+    .profile-parent{
+        margin-left: 20px;
+        display: flex;
+        justify-content:space-between;
+        /* border: 1px solid yellow; */
+        /* width:100% */
+        padding-left: 105px;
+    }
+}

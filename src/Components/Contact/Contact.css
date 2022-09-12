@@ -1,0 +1,134 @@
+.main-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    height:640px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  animation-name: examplee;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+    /* border: 5px solid black; */
+}
+.main-contact .contact-heading{
+    color: rgb(32, 31, 31);
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.main-contact .gettouch-heading{
+
+    color:gray;
+    letter-spacing: 5px;
+}
+.main-contact .tag-line{
+    margin: 10px 0;
+    height: 3px;
+    width:138px;
+    background-color: darkorange;
+}
+.main-contact .contact-div{
+    width: 75%;
+    height:100%;
+    border:1px solid yellow;
+    background-image: url("../../assets/home/concat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 10px;
+    /* padding: 25px; */
+   
+  
+    /* animation-timing-function: ease-in-out; */
+}
+.main-contact .contact-div .contact-form{
+     background-color: white;
+     color: black;
+     border-radius: 20px;
+     width: 45%;
+     height: 80%;
+     padding: 20px;
+     margin: 50px 0 0 20px;
+}
+.main-contact .contact-div .contact-form .label-value{
+    display: flex;
+    flex-direction: column;
+}
+.main-contact .contact-div .contact-form .label-value input,textarea{
+   margin-bottom: 10px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(222, 221, 220);
+   padding: 6px;
+}
+.main-contact .contact-div .contact-form .label-value input{
+    height: 40px;
+}
+.main-contact .contact-div .contact-form .btnn button{
+ background-color: rgb(36,38,59);
+ color:antiquewhite;
+ width:40%;
+ padding: 5px;
+ border-radius: 15px;
+ margin-top: 20px;
+}
+.main-contact .contact-div .heading-contact{
+    margin: 20px 0 0 40px;
+    color: white;
+}
+
+.colz-icon i {
+    color: white;
+    padding: 10px;
+    transform: scale(1.5);
+    /* border: 1px solid white; */
+    /* padding-left:0px ; */
+}
+.colz-icon i:hover{
+    transform: scale(2);
+}
+@keyframes examplee {
+    0%   {left :100%;
+    opacity: 0;}
+    50%{left:50%;
+        opacity: 0.5;}
+    100% { left:0%;
+    opacity: 1;}
+  }
+  @media only screen and (max-width: 950px) {
+    .main-contact .contact-div .heading-contact h1{
+        margin: 10px 0 10px 0;
+        color: white;
+        font-size: 28px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .main-contact .contact-div{
+        width: 85%;
+    }
+    .main-contact .contact-div .contact-form{
+        margin: 50px 0 0 10px;
+        width: 50%;
+    }
+    .main-contact .contact-div .heading-contact h1{
+        font-size: 22px;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .main-contact .contact-div{
+        width: 95%;
+    }
+    .main-contact .contact-div .contact-form{
+        margin: 50px 0 0 10px;
+        width: 55%;
+    }
+    .main-contact .contact-div .heading-contact h1{
+        font-size: 18px;
+    }
+  }
+  
